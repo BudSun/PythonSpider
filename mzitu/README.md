@@ -1,6 +1,6 @@
 ## 开发环境
-* Windows 7
-* Python 2.7.10
+* Windows 10
+* Python 3.6.4
 * Pycharm 2017
 * Scrapy 1.5.0
 
@@ -15,6 +15,4 @@ cd mzitu
 scrapy crawl Mymizitu
 ```
 ## 最终爬取结果
-![](one.PNG)
-
-![](two.PNG)
+🙃
