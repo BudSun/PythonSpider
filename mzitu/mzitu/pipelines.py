@@ -12,7 +12,7 @@ class MzituPipeline(object):
         headers = {
             'Referer': 'http://www.mzitu.com/'
         }
-        local_dir = 'E:\\data\\mzitu\\' + item['title']
+        local_dir = 'D:\\Course\\Python\\PythonDemo\\PythonSpider\\mzitu\\data\\' + item['title']
         local_file = local_dir + '\\' + item['name']
         if not os.path.exists(local_dir):
             os.makedirs(local_dir)

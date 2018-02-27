@@ -4,8 +4,8 @@ from mzitu.items import MzituItem
 from lxml import etree
 import requests
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
+import importlib
+importlib.reload(sys)
 
 class MymzituSpider(scrapy.Spider):
     def get_urls():
